@@ -1,0 +1,202 @@
+/*Use FontFace to import Apple's San Francisco Font*/
+@font-face {
+  /*display medium*/
+  font-family: 'sf_pro_displaymedium';
+  src: url('../fonts/sf-pro-display-medium-webfont.woff2') format('woff2'),
+    url('../fonts/sf-pro-display-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /*display semibold*/
+  font-family: 'sf_pro_displaysemibold';
+  src: url('../fonts/sf-pro-display-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/sf-pro-display-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /*text regular*/
+  font-family: 'sf_pro_textregular';
+  src: url('../fonts/sf-pro-text-regular-webfont.woff2') format('woff2'),
+    url('../fonts/sf-pro-text-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+
+  /*text semibold*/
+  font-family: 'sf_pro_textsemibold';
+  src: url('../fonts/sf-pro-text-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/sf-pro-text-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*base styling*/
+
+body {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  grid-gap: 16px;
+}
+
+#about_me {
+  grid-column: 1/2;
+  border: 2px solid orangered;
+}
+
+#cert_gallery {
+  overflow: hidden;
+}
+
+/*cert gallery section*/
+
+#cert_gallery figure {
+  position: relative;
+  margin: 0;
+  left: 0;
+  width: 500%;
+  animation: 15s cert_gallery infinite;
+}
+
+#cert_gallery figure img {
+  width: 20%;
+  float: left;
+}
+
+@-webkit-keyframes cert_gallery {
+  0% {
+    left: 0;
+  }
+
+  20% {
+    left: 0;
+  }
+
+  33% {
+    left: -100%;
+  }
+
+  45% {
+    left: -100%;
+  }
+
+  66% {
+    left: -200%;
+  }
+
+  75% {
+    left: -200%;
+  }
+
+  100% {
+    left: -300%;
+  }
+}
+
+@-o-keyframes cert_gallery {
+  0% {
+    left: 0;
+  }
+
+  20% {
+    left: 0;
+  }
+
+  33% {
+    left: -100%;
+  }
+
+  45% {
+    left: -100%;
+  }
+
+  66% {
+    left: -200%;
+  }
+
+  75% {
+    left: -200%;
+  }
+
+  100% {
+    left: -300%;
+  }
+}
+
+@-moz-keyframes cert_gallery {
+  0% {
+    left: 0;
+  }
+
+  20% {
+    left: 0;
+  }
+
+  33% {
+    left: -100%;
+  }
+
+  45% {
+    left: -100%;
+  }
+
+  66% {
+    left: -200%;
+  }
+
+  75% {
+    left: -200%;
+  }
+
+  100% {
+    left: -300%;
+  }
+}
+
+@keyframes cert_gallery {
+  0% {
+    left: 0;
+  }
+
+  20% {
+    left: 0;
+  }
+
+  33% {
+    left: -100%;
+  }
+
+  45% {
+    left: -100%;
+  }
+
+  66% {
+    left: -200%;
+  }
+
+  75% {
+    left: -200%;
+  }
+
+  100% {
+    left: -300%;
+  }
+}
+
+
+#project_gallery {
+  grid-column: 2/-1;
+  grid-row: 1/3;
+  border: 2px solid skyblue;
+}
+
+footer {
+  grid-column: 1/2;
+  border: 2px solid purple;
+}
