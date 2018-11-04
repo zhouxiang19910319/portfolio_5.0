@@ -34,16 +34,18 @@ Loading…█▒▒▒▒▒▒▒▒▒
 
 1. Individual card design. https://codepen.io/zhouxiang19910319/pen/ZqNZOp
 2. [1st draft](https://res.cloudinary.com/zzrot/image/upload/v1540980813/Personal%20Portfolio%20Collection/Personal%20Portfolio%20Site%20Images/1st_draft.png) done. 
-3. 
-
-
+3. About me section is done.
+4. Right column Project Gallery section is done
+   1. https://codepen.io/zhouxiang19910319/pen/NEKLOJ?editors=1100 
+5. ~~Make the page a 2 column design page?????~~
+6. ~~Then add media queries to it? Only use CSS grid for the right section of the page?????~~
 
 ## Challenges I run into when building this site 🤦‍♂️
 
-* Making an image slider using vanilla Javascript , and makes sure it is responsive...
-* Making the whole site responsive.
-* How to handle two column design.
-* 
+* Making an image slider using vanilla Javascript , and makes sure it is responsive... ✅
+* Making the whole site responsive. ✅
+* How to handle two column design. 
+* Make project image banner automatically appear whenever your mouse hovers on the image. ✅
 
 
 
@@ -61,8 +63,16 @@ Loading…█▒▒▒▒▒▒▒▒▒
 ## Detailes I need to change/ Known issues
 
 1. ~~Image sliding section has one blank page at the end.~~
-2. Add in banner on every project picture.
-3. 
+2. ~~Add in banner on every project picture.~~
+3. ~~The last project's height when viewport becomes narrow is way too small.~~
+4. Browser compatibilities? 
+   1. Safari?
+   2. Chrome?
+   3. IE (version??)
+   4. Firefox?
+   5. Oprea?
+5. Contact me section has too much height by default.
+6. When viewport is too narrow, right side grids do not show up.
 
 
 

@@ -11,19 +11,20 @@
 </head>
 
 <body>
+  <!--left section About Me Section-->
   <section id="about_me">
     <h1 class="section_title">About Me</h1>
-    <img src="img/profile_pic.jpg" alt="">
+    <img src="img/profile_pic.png" alt="my_profile_picture" id="profile_pic">
 
     <div id="self_intro">
-      <p>My name is Xiang (Matt) Zhou. I am a web developer who loves tech.</p>
+      <p id="intro_first_line">My name is Xiang (Matt) Zhou. I am a web developer who loves tech.</p>
       <p>Here is a brief introduction about myself :</p>
       <ul>
         <li>learning to code through freecodecamp.org since 2016</li>
         <li>comfortable writing web pages using HTML CSS as well as javascript</li>
-        <li>had experience with designing and building website using bootstrap, css-grid</li>
+        <li>had experience with designing and building fully responsive website using bootstrap, css-grid</li>
         <li>currently learning javascript data structures as well as algorithms</li>
-        <li>one of my article regarding learning to code on medium has more than 50k views</li>
+        <li>one of my articles regarding learning to code on medium has more than 50k views</li>
         <li>built my own blog using jekyll</li>
       </ul>
     </div>
@@ -32,21 +33,73 @@
       <figure>
         <!--the 1st image has to be the same as the last image to create a flow -->
         <img src="img/Respsonsive_Web_Design_Cert.png" alt="responsive_web_design_cert">
-        <img src="https://res.cloudinary.com/zzrot/image/upload/v1538351660/Personal%20Portfolio%20Collection/Personal%20Portfolio%20Site%20Images/Respsonsive_Web_Design_Cert.png"
-          alt="javascript_algorithm_cert">
-        <img src="img/medium article.png" alt="medium_article_I_wrote">
+        <img src="" alt="javascript_algorithm_cert">
+        <a href="https://medium.freecodecamp.org/the-most-difficult-things-about-learning-to-code-by-yourself-b24ac8c3c23a">
+          <img src="img/medium article.png" alt="medium_article_I_wrote">
+        </a>
         <img src="img/Respsonsive_Web_Design_Cert.png" alt="responsive_web_design_cert">
         <!--same as 1st image-->
       </figure>
     </div>
   </section>
 
+  <!--Right section project gallery-->
   <section id="project_gallery">
     <h1 class="section_title">Project Gallery</h1>
+
+    <div id="grid_wrapper">
+      <!--1-->
+      <div class="card" id="bootstrap_documentation">
+        <a href="https://bootstrap-technical-documentation.netlify.com" target="_blank">
+          <div class="description">
+            <h2>Bootstrap Documentation Page</h2>
+            <p>I cloned an old version of bootstrap's documentation page.</p>
+          </div>
+        </a>
+      </div>
+      <!--2-->
+      <div class="card" id="macbookpro_configuration">
+        <a href="#" target="_blank">
+          <div class="description">
+            <h2>Macbook Pro Configuration Page</h2>
+            <p>I cloned apple's macbook pro config page using bootstrap.</p>
+          </div>
+        </a>
+      </div>
+      <!--3-->
+      <div class="card" id="tribute_page">
+        <a href="https://mickeyrourke-tribute-page.netlify.com" target="_blank">
+          <div class="description">
+            <h2>Tribute Page</h2>
+            <p>Tribute Page I made when doing freeCodeCamp's curriculum.</p>
+          </div>
+        </a>
+      </div>
+      <!--4-->
+      <div class="card" id="nerdfusionclone">
+        <a href="https://nerdfusionclone.netlify.com" target="_blank">
+          <div class="description">
+            <h2>N3rdfusion Studio Website Clone</h2>
+            <p>I cloned N3rdfusion's old studio site.</p>
+          </div>
+        </a>
+      </div>
+      <!--5-->
+      <div class="card" id="tweet_collection">
+        <a href="https://not-jony-ive-tweetcollection.netlify.com/" target="_blank">
+          <div class="description">
+            <h2>Tweets Collection using Mansonry JS</h2>
+            <p>Image gallery like tweets collection page I made using external JS libraries.</p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
   </section>
 
   <footer>
-    <p>footer placeholder</p>
+    <h1 class="section_title">Contact Me @: </h1>
   </footer>
 </body>
 
