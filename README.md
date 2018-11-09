@@ -71,8 +71,8 @@ Loading…█▒▒▒▒▒▒▒▒▒
    3. IE (version??)
    4. Firefox?
    5. Oprea?
-5. Contact me section has too much height by default.
-6. When viewport is too narrow, right side grids do not show up.
+5. ~~Contact me section has too much height by default.~~
+6. ~~When viewport is too narrow, right side grids do not show up.~~
 7. Choose a better font to work with the linear design.
 
 
