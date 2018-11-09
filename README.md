@@ -66,13 +66,14 @@ Loading…█▒▒▒▒▒▒▒▒▒
 2. ~~Add in banner on every project picture.~~
 3. ~~The last project's height when viewport becomes narrow is way too small.~~
 4. Browser compatibilities? 
-   1. Safari?
-   2. Chrome?
+   1. Safari? ✅
+   2. Chrome? ✅
    3. IE (version??)
    4. Firefox?
    5. Oprea?
 5. Contact me section has too much height by default.
 6. When viewport is too narrow, right side grids do not show up.
+7. Choose a better font to work with the linear design.
 
 
 
