@@ -234,31 +234,56 @@ li {
 }
 
 /*contact me section*/
-#contact_inner_div{
-  display:flex;
+#contact_inner_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
   align-items: baseline;
-  align-content:center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  background-color: #d7d7d7;
 }
 
-#contact_inner_div a{
+#contact_inner_div a {
+  position: relative;
   text-decoration: none;
-  color:#23b6c7;
-  padding: .8rem 1rem;
-  margin-right:.5rem;
-  margin-bottom: .3rem;
+  color: #23b6c7;
+  padding: 0.8rem 1rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.3rem;
   background-color: #eeeeee;
 }
 
-#contact_inner_div a:hover{
-  transition: background-color 0.8s linear;
-  background-color: #23b6c7;
-  transition: color 0.1s linear;
+#contact_inner_div a:hover {
   color: white;
-  transition: border .1s linear;
-  border:none;
+  z-index: 2;
 }
+
+#contact_inner_div a:after {
+  position: absolute; /*this and the position I set on a tag will make sure that the a tag got filled in a backrgound color, instead of the whole page got filled in*/
+  content: ""; /*empty content, background color only??*/
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  z-index: -1;
+}
+#contact_inner_div a:hover:after {
+  width: 100%;
+  background-color: #23b6c7;
+  color: white; /*does not work?*/
+}
+
 
 
 /*PROJECT GALLERY SECTION OF THE PAGE*/
