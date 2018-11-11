@@ -14,13 +14,13 @@
   * CSS Grid
   * Flexbox
   * **No jQuery, No bootstrap**
-* The **only** libraries I utilized was [normailze.css](https://necolas.github.io/normalize.css/) as well as [fontawesome](https://fontawesome.com/) .
 * Everything from the design and the code was done by me.
 
 ## Project Highlights ⭐️
 
 * Using `@font-face` to display custom fonts `Hiragino Kaku Gothic Pro` on my site.
 * Fully responsive, whether on mobile or desktop.
+* No CSS library was used in this site.
 
 
 
@@ -42,9 +42,9 @@ Loading…█▒▒▒▒▒▒▒▒▒
 
 ## Challenges I run into when building this site 🤦‍♂️
 
-* Making an image slider using vanilla Javascript , and makes sure it is responsive... ✅
+* Making an image slider using css , and makes sure it is responsive... ✅
 * Making the whole site responsive. ✅
-* How to handle two column design. 
+* How to handle two column design. ✅ (I just used CSS-grid instead of making 2 individual columns)
 * Make project image banner automatically appear whenever your mouse hovers on the image. ✅
 
 
