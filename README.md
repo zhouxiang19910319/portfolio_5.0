@@ -18,7 +18,6 @@
 
 ## Project Highlights ⭐️
 
-* Using `@font-face` to display custom fonts `Hiragino Kaku Gothic Pro` on my site.
 * Fully responsive, whether on mobile or desktop.
 * No CSS library was used in this site.
 
@@ -60,7 +59,7 @@ Loading…█▒▒▒▒▒▒▒▒▒
 
 
 
-## Detailes I need to change/ Known issues
+## Details I need to change/ Known issues
 
 1. ~~Image sliding section has one blank page at the end.~~
 2. ~~Add in banner on every project picture.~~

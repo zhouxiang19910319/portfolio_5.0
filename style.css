@@ -1,41 +1,3 @@
-/*Use FontFace to import Apple's San Francisco Font*/
-@font-face {
-  /*display medium*/
-  font-family: 'sf_pro_displaymedium';
-  src: url('../fonts/sf-pro-display-medium-webfont.woff2') format('woff2'),
-    url('../fonts/sf-pro-display-medium-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  /*display semibold*/
-  font-family: 'sf_pro_displaysemibold';
-  src: url('../fonts/sf-pro-display-semibold-webfont.woff2') format('woff2'),
-    url('../fonts/sf-pro-display-semibold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  /*text regular*/
-  font-family: 'sf_pro_textregular';
-  src: url('../fonts/sf-pro-text-regular-webfont.woff2') format('woff2'),
-    url('../fonts/sf-pro-text-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-
-  /*text semibold*/
-  font-family: 'sf_pro_textsemibold';
-  src: url('../fonts/sf-pro-text-semibold-webfont.woff2') format('woff2'),
-    url('../fonts/sf-pro-text-semibold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 /*base styling*/
 
 *{
@@ -59,7 +21,9 @@ body {
 /*universal styling*/
 .section_title {
   margin-bottom: 2rem;
-  font-family: 'sf_pro_displaymedium';
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
   color: #202224;
 }
 
@@ -91,12 +55,14 @@ body {
 }
 
 #intro_first_line {
-  font-family: 'sf_pro_textsemibold';
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 #self_intro p,
 li {
-  font-family: 'sf_pro_textregular';
+  font-family: 'Open Sans', sans-serif;
+
   line-height: 1.5rem;
 }
 
@@ -208,6 +174,8 @@ li {
   margin-right: 0.5rem;
   margin-bottom: 0.3rem;
   background-color: #eeeeee;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 #contact_inner_div a:hover {
@@ -305,7 +273,8 @@ li {
   transition: 1s;
   bottom: 0px;
   left: -355px;
-  font-family: 'sf_pro_textsemibold';
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 h2,
