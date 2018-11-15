@@ -59,6 +59,10 @@ Loading…█▒▒▒▒▒▒▒▒▒
 
 
 
+## Media Queries
+
+1. bigger than 1100px => 
+
 ## Details I need to change/ Known issues
 
 1. ~~Image sliding section has one blank page at the end.~~

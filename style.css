@@ -14,7 +14,7 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1.6fr;
-      grid-template-columns: 1fr 1.6fr;
+  grid-template-columns: 1fr 1.6fr;
   grid-gap: 1rem;
 }
 
@@ -348,6 +348,30 @@ p {
 }
 
 
+/*650px - 700px*/
+@media (min-width:650px) and (max-width:700px){
+  #bootstrap_documentation {
+    /* grid-column: 1/-1; */
+    grid-row: span 1;
+  }
+  
+  #macbookpro_configuration {
+    grid-column: 1/-1;
+    grid-row: span 1;
+  }
+  
+  #tribute_page {
+    grid-column: 1/-1;
+  }
+  
+  #nerdfusionclone {
+    grid-column: 1/-1;
+  }
+  
+  #tweet_collection {
+    grid-column: 1/-1;
+  }
+}
 
 /*<650px*/
 @media (max-width: 650px) {
