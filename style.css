@@ -271,10 +271,10 @@ li {
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
-  bottom: 0px;
-  left: -355px;
+  bottom: -150px;
   font-family: 'Open Sans', sans-serif;
-
+  width: 100%;
+  text-align: center;
 }
 
 h2,
@@ -287,7 +287,7 @@ p {
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
-  left: 0px;
+  bottom: 0px;
 }
 
 
@@ -352,11 +352,13 @@ p {
 @media (min-width:650px) and (max-width:700px){
   #bootstrap_documentation {
     /* grid-column: 1/-1; */
+    -ms-grid-row-span: 1;
     grid-row: span 1;
   }
   
   #macbookpro_configuration {
     grid-column: 1/-1;
+    -ms-grid-row-span: 1;
     grid-row: span 1;
   }
   
