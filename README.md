@@ -4,6 +4,10 @@
 
 *You can check out the previous version [here](https://codepen.io/zhouxiang19910319/pen/bKJEPB).*
 
+Portfolio 5.0 screenshot(this is the latest version):
+
+![portfolio screenshot](https://res.cloudinary.com/zzrot/image/upload/v1543396463/Personal%20Portfolio%20Collection/Personal%20Portfolio%20Site%20Images/portfolio_5.0_8.25.53_AM.jpg)
+
 ---
 
 ## Project Info ℹ️
