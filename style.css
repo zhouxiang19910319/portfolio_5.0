@@ -21,7 +21,7 @@ body {
 /*universal styling*/
 .section_title {
   margin-bottom: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.1rem;
   font-weight: 400;
   color: #202224;
@@ -45,23 +45,23 @@ body {
   grid-row: 1/2;
   padding: 2rem;
 
-  background: #d7d7d7;
+  background: #fff5e8;
 }
 
 #self_intro {
-  background-color: #eeeeee;
+  background-color: white;
   padding: 1rem;
   margin: 1rem auto;
 }
 
 #intro_first_line {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
 #self_intro p,
 li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
   line-height: 1.5rem;
 }
@@ -163,18 +163,18 @@ li {
   -ms-flex-line-pack: center;
   align-content: center;
 
-  background-color: #d7d7d7;
+  /* background-color: white; */
 }
 
 #contact_inner_div a {
   position: relative;
   text-decoration: none;
-  color: #23b6c7;
+  color: #f47c48;
   padding: 0.8rem 1rem;
   margin-right: 0.5rem;
   margin-bottom: 0.3rem;
-  background-color: #eeeeee;
-  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
 
@@ -197,7 +197,7 @@ li {
 }
 #contact_inner_div a:hover:after {
   width: 100%;
-  background-color: #23b6c7;
+  background-color: #f47c48;
   color: white; /*does not work?*/
 }
 
@@ -267,12 +267,12 @@ li {
 .description {
   position: absolute;
   color: white;
-  background: #23b6c7;
+  background-color: #f47c48;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
   bottom: -150px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   width: 100%;
   text-align: center;
 }
